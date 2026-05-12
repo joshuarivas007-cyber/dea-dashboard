@@ -291,3 +291,93 @@ tr:hover {
   color: #ff5252;
   font-size: 0.85rem;
 }
+
+/* Tabs */
+.tabs {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid var(--border);
+  padding-bottom: 0;
+}
+
+.tab-btn {
+  background: transparent;
+  border: none;
+  color: var(--text-secondary);
+  padding: 12px 24px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  border-bottom: 3px solid transparent;
+  transition: all 0.2s;
+  margin-bottom: -2px;
+}
+
+.tab-btn:hover {
+  color: var(--text-primary);
+  background: rgba(0, 173, 181, 0.05);
+}
+
+.tab-btn.active {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+/* Suburb tab */
+.suburb-tab {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.region-title {
+  font-size: 1.1rem;
+  color: var(--accent);
+  margin-top: 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+}
+
+.suburb-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.postcode {
+  font-family: 'Courier New', monospace;
+  font-weight: 600;
+  color: #ccc;
+}
+
+.service-type {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.no-data {
+  color: var(--text-secondary);
+  font-style: italic;
+  padding: 16px;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 60px;
+  color: var(--text-secondary);
+  font-size: 1rem;
+}
+
+/* Append button */
+.append-btn {
+  background: #1b8a2e;
+}
+
+/* Weeks loaded indicator */
+.weeks-loaded {
+  color: var(--accent);
+  font-size: 0.8rem;
+  margin-top: 4px;
+}
+
