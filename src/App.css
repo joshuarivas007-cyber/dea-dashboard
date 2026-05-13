@@ -1,4 +1,4 @@
-﻿:root {
+:root {
   --bg-primary: #1a1a2e;
   --bg-secondary: #16213e;
   --bg-card: #0f3460;
@@ -381,3 +381,8 @@ tr:hover {
   margin-top: 4px;
 }
 
+
+
+.download-btn {
+  background: #1565c0;
+}

@@ -156,6 +156,26 @@ function App() {
     loadSampleData();
   };
 
+  const handleDownload = () => {
+    if (!stations) return;
+    const rows = [];
+    const headers = ['Station', 'Rank', 'Transporter ID', ...Object.keys(Object.values(stations)[0].transporters[0].weeks).map(w => 'W' + w), 'Total', 'Standing'];
+    rows.push(headers.join(','));
+    Object.values(stations).sort((a, b) => b.total - a.total).forEach(station => {
+      station.transporters.forEach((t, idx) => {
+        const weekVals = Object.values(t.weeks).map(v => v || '');
+        rows.push([station.name, idx + 1, t.id, ...weekVals, t.grandTotal, t.standing].join(','));
+      });
+    });
+    const blob = new Blob([rows.join('\n')], { type: 'text/csv' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'dea_dashboard_data.csv';
+    a.click();
+    URL.revokeObjectURL(url);
+  };
+
   const getFilteredStations = () => {
     if (activeTab === 'overall') return filterStationsByRegion(stations, 'all');
     if (activeTab === 'north') return filterStationsByRegion(stations, 'north');
@@ -211,6 +231,11 @@ function App() {
           {dataSource === 'csv' && (
             <button className="refresh-btn clear-btn" onClick={handleClearData}>
               Reset
+            </button>
+          )}
+          {stations && dataSource === 'csv' && (
+            <button className="refresh-btn download-btn" onClick={handleDownload}>
+              Download CSV
             </button>
           )}
           {lastRefresh && (
