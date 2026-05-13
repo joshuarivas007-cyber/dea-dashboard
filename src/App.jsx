@@ -234,6 +234,11 @@ function App() {
               Publish Data
             </button>
           )}
+          {dataSource === 'csv' && (
+            <button className="refresh-btn clear-btn" onClick={loadPublishedData}>
+              Reset
+            </button>
+          )}
           {stations && (
             <button className="refresh-btn download-btn" onClick={handleDownloadCSV}>
               Download CSV
