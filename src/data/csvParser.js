@@ -57,7 +57,7 @@ export function transformToStationData(rows) {
       stationMap[station] = {};
     }
     if (!stationMap[station][transporter]) {
-      stationMap[station][transporter] = { weeks: {}, weekStandings: {}, standing: standing, currentStanding: '', count: 0 };
+      stationMap[station][transporter] = { weeks: {}, weekStandings: {}, standing: standing, currentStanding: '', operationalStatus: '', count: 0 };
     }
 
     if (!stationMap[station][transporter].weeks[wk]) {
@@ -73,6 +73,10 @@ export function transformToStationData(rows) {
     }
     if (weekStanding && weekStanding.trim() !== '') {
       stationMap[station][transporter].weekStandings[wk] = weekStanding;
+    }
+    const opStatus = row.operationalstatus || row.operational_status || '';
+    if (opStatus && opStatus.trim() !== '') {
+      stationMap[station][transporter].operationalStatus = opStatus;
     }
   });
 
@@ -94,6 +98,7 @@ export function transformToStationData(rows) {
         weekStandings: data.weekStandings,
         grandTotal: data.count,
         standing: formatStanding(data.standing),
+        operationalStatus: data.operationalStatus || 'Unknown',
         slsTickets: '',
         comments: ''
       }))

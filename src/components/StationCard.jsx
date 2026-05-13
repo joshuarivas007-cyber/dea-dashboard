@@ -30,7 +30,7 @@ export default function StationCard({ station }) {
               ))}
               <th>Total</th>
               <th>Standing</th>
-              <th>Comments</th>
+              <th>DP Status</th>
             </tr>
           </thead>
           <tbody>
@@ -57,13 +57,7 @@ export default function StationCard({ station }) {
                       {t.standing}
                     </span>
                   </td>
-                  <td className="comments">
-                    {t.slsTickets ? (
-                      <a href={t.slsTickets} target="_blank" rel="noopener noreferrer" className="ticket-link">
-                        {t.comments || 'Ticket'}
-                      </a>
-                    ) : t.comments}
-                  </td>
+                  <td className="dp-status">{t.operationalStatus || ''}</td>
                 </tr>
               );
             })}
