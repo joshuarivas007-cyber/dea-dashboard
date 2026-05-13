@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
-import { fetchStationData } from './data/stationData';
 import { parseCSV, transformToStationData, transformToSuburbData, mergeRawRows, getLoadedWeeks, saveToStorage, loadFromStorage, clearStorage } from './data/csvParser';
 import { filterStationsByRegion } from './data/regions';
+import { getStandingColor } from './data/stationData';
 import StationCard from './components/StationCard';
 import SuburbTab from './components/SuburbTab';
 import './App.css';
@@ -20,40 +20,36 @@ function App() {
   const [loadedWeeks, setLoadedWeeks] = useState([]);
   const [loading, setLoading] = useState(true);
   const [lastRefresh, setLastRefresh] = useState(null);
-  const [dataSource, setDataSource] = useState('sample');
+  const [dataSource, setDataSource] = useState('published');
   const [error, setError] = useState(null);
   const [activeTab, setActiveTab] = useState('overall');
   const fileInputRef = useRef(null);
   const appendInputRef = useRef(null);
 
   useEffect(() => {
-    const saved = loadFromStorage();
-    if (saved) {
-      setStations(saved.data);
-      setSuburbData(saved.suburbData);
-      setRawRows(saved.rawRows);
-      setLoadedWeeks(saved.weeks || []);
-      setLastRefresh(new Date(saved.timestamp));
-      setDataSource('csv');
-      setLoading(false);
-    } else {
-      loadSampleData();
-    }
+    loadPublishedData();
   }, []);
 
-  const loadSampleData = async () => {
+  const loadPublishedData = async () => {
     setLoading(true);
     setError(null);
     try {
-      const data = await fetchStationData();
-      setStations(data);
-      setSuburbData(null);
-      setRawRows(null);
-      setLoadedWeeks([]);
-      setLastRefresh(new Date());
-      setDataSource('sample');
+      const base = import.meta.env.BASE_URL || '/';
+      const response = await fetch(base + 'data.json');
+      const json = await response.json();
+      if (json.stations && Object.keys(json.stations).length > 0) {
+        setStations(json.stations);
+        setSuburbData(json.suburbData || null);
+        setLoadedWeeks(json.weeks || []);
+        setLastRefresh(json.lastUpdated ? new Date(json.lastUpdated) : new Date());
+        setDataSource('published');
+      } else {
+        setStations(null);
+        setDataSource('empty');
+      }
     } catch (err) {
-      setError('Failed to load sample data');
+      setStations(null);
+      setDataSource('empty');
     } finally {
       setLoading(false);
     }
@@ -69,7 +65,6 @@ function App() {
     setLoadedWeeks(weeks);
     setLastRefresh(new Date());
     setDataSource('csv');
-    saveToStorage(data, suburbs, null, weeks);
     setError(null);
   };
 
@@ -123,16 +118,8 @@ function App() {
           setLoading(false);
           return;
         }
-        // Merge with existing raw data
         const merged = mergeRawRows(rawRows, newRows);
-        const newWeeks = getLoadedWeeks(newRows);
         processRows(merged);
-        setError(null);
-        // Show which weeks were added
-        const addedWeeks = newWeeks.filter(w => !loadedWeeks.includes(w));
-        if (addedWeeks.length > 0) {
-          setError(null);
-        }
       } catch (err) {
         setError('Error parsing CSV: ' + err.message);
       } finally {
@@ -151,15 +138,29 @@ function App() {
     appendInputRef.current.click();
   };
 
-  const handleClearData = () => {
-    clearStorage();
-    loadSampleData();
+  const handlePublish = () => {
+    if (!stations) return;
+    const publishData = {
+      stations,
+      suburbData,
+      weeks: loadedWeeks,
+      lastUpdated: new Date().toISOString()
+    };
+    const blob = new Blob([JSON.stringify(publishData, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'data.json';
+    a.click();
+    URL.revokeObjectURL(url);
   };
 
-  const handleDownload = () => {
+  const handleDownloadCSV = () => {
     if (!stations) return;
     const rows = [];
-    const headers = ['Station', 'Rank', 'Transporter ID', ...Object.keys(Object.values(stations)[0].transporters[0].weeks).map(w => 'W' + w), 'Total', 'Standing'];
+    const firstStation = Object.values(stations)[0];
+    if (!firstStation || !firstStation.transporters[0]) return;
+    const headers = ['Station', 'Rank', 'Transporter ID', ...Object.keys(firstStation.transporters[0].weeks).map(w => 'W' + w), 'Total', 'Standing'];
     rows.push(headers.join(','));
     Object.values(stations).sort((a, b) => b.total - a.total).forEach(station => {
       station.transporters.forEach((t, idx) => {
@@ -221,26 +222,26 @@ function App() {
             style={{ display: 'none' }}
           />
           <button className="refresh-btn upload-btn" onClick={handleUploadClick} disabled={loading}>
-            Upload Full CSV
+            Upload CSV
           </button>
           {dataSource === 'csv' && (
             <button className="refresh-btn append-btn" onClick={handleAppendClick} disabled={loading}>
               + Add Week
             </button>
           )}
-          {dataSource === 'csv' && (
-            <button className="refresh-btn clear-btn" onClick={handleClearData}>
-              Reset
+          {stations && dataSource === 'csv' && (
+            <button className="refresh-btn publish-btn" onClick={handlePublish}>
+              Publish Data
             </button>
           )}
-          {stations && dataSource === 'csv' && (
-            <button className="refresh-btn download-btn" onClick={handleDownload}>
+          {stations && (
+            <button className="refresh-btn download-btn" onClick={handleDownloadCSV}>
               Download CSV
             </button>
           )}
           {lastRefresh && (
             <span className="last-refresh">
-              {dataSource === 'csv' ? 'Updated' : 'Sample'}: {lastRefresh.toLocaleString()}{loadedWeeks.length > 0 && (' | Weeks: ' + loadedWeeks.join(', '))}
+              {dataSource === 'published' ? 'Published' : 'Uploaded'}: {lastRefresh.toLocaleString()}{loadedWeeks.length > 0 && (' | Weeks: ' + loadedWeeks.join(', '))}
             </span>
           )}
         </div>
@@ -258,9 +259,9 @@ function App() {
         ))}
       </nav>
 
-      {dataSource === 'sample' && (
+      {dataSource === 'empty' && (
         <div className="info-banner">
-          Showing sample data (North only). Export your query from <a href="https://datacentral.a2z.com/workbench/query-explorer?queryId=fdc6c039-059c-4f45-a419-b9e0a4433bc8" target="_blank" rel="noopener noreferrer">DataCentral</a> as CSV and upload for live data.
+          No data published yet. Upload a CSV to get started.
         </div>
       )}
 
@@ -296,4 +297,3 @@ function App() {
 }
 
 export default App;
-
