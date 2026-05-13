@@ -1,6 +1,2803 @@
 {
-  "stations": {},
-  "suburbData": {},
-  "weeks": [],
-  "lastUpdated": ""
+  "stations": {
+    "DNS4": {
+      "name": "DNS4",
+      "transporters": [
+        {
+          "id": "A1L5EEKPA4BL0N",
+          "weeks": {
+            "1": 3,
+            "2": 3,
+            "3": 2,
+            "4": 1,
+            "5": 2,
+            "6": 1,
+            "7": 1,
+            "8": 1,
+            "9": 67,
+            "10": 1,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": 71,
+            "17": 1,
+            "18": 4,
+            "19": 1
+          },
+          "weekStandings": {
+            "1": "FANTASTIC",
+            "2": "GREAT",
+            "3": "FANTASTIC",
+            "4": "FANTASTIC",
+            "5": "FANTASTIC",
+            "6": "FANTASTIC",
+            "7": "GREAT",
+            "8": "GREAT",
+            "9": "GREAT",
+            "10": "GREAT",
+            "16": "GREAT",
+            "17": "AT_RISK",
+            "18": "GOOD",
+            "19": "GOOD"
+          },
+          "grandTotal": 159,
+          "standing": "Good",
+          "operationalStatus": "ACTIVE",
+          "slsTickets": "",
+          "comments": ""
+        },
+        {
+          "id": "A1AHXXALKU6G2I",
+          "weeks": {
+            "1": 67,
+            "2": 80,
+            "3": null,
+            "4": null,
+            "5": 1,
+            "6": null,
+            "7": 1,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+          },
+          "weekStandings": {
+            "1": "FANTASTIC",
+            "2": "GREAT",
+            "5": "GREAT",
+            "7": "UNACCEPTABLE"
+          },
+          "grandTotal": 149,
+          "standing": "Unacceptable",
+          "operationalStatus": "OFFBOARDED",
+          "slsTickets": "",
+          "comments": ""
+        },
+        {
+          "id": "A1OCJK855V01AH",
+          "weeks": {
+            "1": 9,
+            "2": 7,
+            "3": 6,
+            "4": 79,
+            "5": 2,
+            "6": 2,
+            "7": 4,
+            "8": 2,
+            "9": null,
+            "10": 3,
+            "11": 2,
+            "12": 2,
+            "13": 3,
+            "14": 2,
+            "15": 1,
+            "16": 5,
+            "17": 5,
+            "18": 5,
+            "19": 5
+          },
+          "weekStandings": {
+            "1": "AT_RISK",
+            "2": "FANTASTIC",
+            "3": "FANTASTIC",
+            "4": "AT_RISK",
+            "5": "AT_RISK",
+            "6": "FANTASTIC",
+            "7": "GREAT",
+            "8": "GREAT",
+            "10": "AT_RISK",
+            "11": "AT_RISK",
+            "12": "GOOD",
+            "13": "GOOD",
+            "14": "GOOD",
+            "15": "GREAT",
+            "16": "GREAT",
+            "17": "FANTASTIC",
+            "18": "FANTASTIC",
+            "19": "GREAT"
+          },
+          "grandTotal": 144,
+          "standing": "Great",
+          "operationalStatus": "ACTIVE",
+          "slsTickets": "",
+          "comments": ""
+        },
+        {
+          "id": "A31AMYHS8H34RL",
+          "weeks": {
+            "1": null,
+            "2": 4,
+            "3": 5,
+            "4": 1,
+            "5": null,
+            "6": 2,
+            "7": null,
+            "8": 6,
+            "9": 4,
+            "10": 6,
+            "11": 15,
+            "12": 2,
+            "13": 2,
+            "14": 2,
+            "15": 2,
+            "16": 4,
+            "17": 25,
+            "18": 6,
+            "19": 46
+          },
+          "weekStandings": {
+            "2": "GOOD",
+            "3": "GOOD",
+            "4": "GOOD",
+            "6": "GOOD",
+            "8": "GOOD",
+            "9": "GOOD",
+            "10": "AT_RISK",
+            "11": "AT_RISK",
+            "12": "AT_RISK",
+            "13": "GOOD",
+            "14": "GOOD",
+            "15": "GREAT",
+            "16": "GREAT",
+            "17": "AT_RISK",
+            "18": "AT_RISK",
+            "19": "GREAT"
+          },
+          "grandTotal": 132,
+          "standing": "Great",
+          "operationalStatus": "ACTIVE",
+          "slsTickets": "",
+          "comments": ""
+        },
+        {
+          "id": "A15OUGFWUF3K8E",
+          "weeks": {
+            "1": null,
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": 109,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": 1,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+          },
+          "weekStandings": {
+            "6": "GREAT",
+            "11": "FANTASTIC"
+          },
+          "grandTotal": 110,
+          "standing": "Fantastic",
+          "operationalStatus": "ACTIVE",
+          "slsTickets": "",
+          "comments": ""
+        }
+      ],
+      "total": 6522
+    },
+    "DNS5": {
+      "name": "DNS5",
+      "transporters": [
+        {
+          "id": "A5PZUY1O3QR9X",
+          "weeks": {
+            "1": 35,
+            "2": 1,
+            "3": 24,
+            "4": null,
+            "5": null,
+            "6": 2,
+            "7": null,
+            "8": 1,
+            "9": 99,
+            "10": null,
+            "11": null,
+            "12": 115,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": 54,
+            "19": 43
+          },
+          "weekStandings": {
+            "1": "GREAT",
+            "2": "GREAT",
+            "3": "GOOD",
+            "6": "GOOD",
+            "8": "GREAT",
+            "9": "GREAT",
+            "12": "GOOD",
+            "18": "AT_RISK",
+            "19": "UNACCEPTABLE"
+          },
+          "grandTotal": 374,
+          "standing": "Unacceptable",
+          "operationalStatus": "ACTIVE",
+          "slsTickets": "",
+          "comments": ""
+        },
+        {
+          "id": "A2QYF6CLQSVCS4",
+          "weeks": {
+            "1": null,
+            "2": 1,
+            "3": null,
+            "4": null,
+            "5": 84,
+            "6": null,
+            "7": 2,
+            "8": null,
+            "9": null,
+            "10": 77,
+            "11": null,
+            "12": 74,
+            "13": 1,
+            "14": 1,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": 61,
+            "19": 2
+          },
+          "weekStandings": {
+            "2": "FANTASTIC",
+            "5": "FANTASTIC",
+            "7": "GREAT",
+            "10": "AT_RISK",
+            "12": "FANTASTIC",
+            "13": "FANTASTIC",
+            "14": "FANTASTIC",
+            "18": "AT_RISK",
+            "19": "AT_RISK"
+          },
+          "grandTotal": 303,
+          "standing": "At risk",
+          "operationalStatus": "ACTIVE",
+          "slsTickets": "",
+          "comments": ""
+        },
+        {
+          "id": "A1D1ZS8K145G2Z",
+          "weeks": {
+            "1": 1,
+            "2": 2,
+            "3": null,
+            "4": 99,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": 1,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": 55,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": 25
+          },
+          "weekStandings": {
+            "1": "FANTASTIC",
+            "2": "FANTASTIC",
+            "4": "FANTASTIC",
+            "11": "GREAT",
+            "15": "FANTASTIC",
+            "19": "AT_RISK"
+          },
+          "grandTotal": 183,
+          "standing": "At risk",
+          "operationalStatus": "ACTIVE",
+          "slsTickets": "",
+          "comments": ""
+        },
+        {
+          "id": "A3TG4MUJL6ZQYJ",
+          "weeks": {
+            "1": null,
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": 1,
+            "11": 55,
+            "12": 1,
+            "13": 3,
+            "14": null,
+            "15": null,
+            "16": 69,
+            "17": 1,
+            "18": null,
+            "19": 1
+          },
+          "weekStandings": {
+            "10": "GREAT",
+            "11": "FANTASTIC",
+            "12": "FANTASTIC",
+            "13": "FANTASTIC",
+            "16": "AT_RISK",
+            "17": "AT_RISK",
+            "19": "FANTASTIC"
+          },
+          "grandTotal": 131,
+          "standing": "Fantastic",
+          "operationalStatus": "ACTIVE",
+          "slsTickets": "",
+          "comments": ""
+        },
+        {
+          "id": "AS3A91HHY8BWQ",
+          "weeks": {
+            "1": 1,
+            "2": 2,
+            "3": 1,
+            "4": 1,
+            "5": 2,
+            "6": null,
+            "7": null,
+            "8": 1,
+            "9": 2,
+            "10": null,
+            "11": 42,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": 1,
+            "16": null,
+            "17": null,
+            "18": 3,
+            "19": 55
+          },
+          "weekStandings": {
+            "1": "FANTASTIC",
+            "2": "FANTASTIC",
+            "3": "FANTASTIC",
+            "4": "FANTASTIC",
+            "5": "GREAT",
+            "8": "FANTASTIC",
+            "9": "FANTASTIC",
+            "11": "FANTASTIC",
+            "15": "FANTASTIC",
+            "18": "FANTASTIC",
+            "19": "AT_RISK"
+          },
+          "grandTotal": 111,
+          "standing": "At risk",
+          "operationalStatus": "ACTIVE",
+          "slsTickets": "",
+          "comments": ""
+        }
+      ],
+      "total": 4371
+    },
+    "DNS6": {
+      "name": "DNS6",
+      "transporters": [
+        {
+          "id": "A2VBGG5H2T4PN7",
+          "weeks": {
+            "1": null,
+            "2": null,
+            "3": 109,
+            "4": null,
+            "5": 111,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": 115,
+            "19": null
+          },
+          "weekStandings": {
+            "3": "GOOD",
+            "5": "GOOD",
+            "18": "GOOD"
+          },
+          "grandTotal": 335,
+          "standing": "Good",
+          "operationalStatus": "ACTIVE",
+          "slsTickets": "",
+          "comments": ""
+        },
+        {
+          "id": "A33KBNYLBLK9Z3",
+          "weeks": {
+            "1": null,
+            "2": 86,
+            "3": 3,
+            "4": 6,
+            "5": 6,
+            "6": 4,
+            "7": 35,
+            "8": 2,
+            "9": null,
+            "10": 5,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+          },
+          "weekStandings": {
+            "2": "GOOD",
+            "3": "GOOD",
+            "4": "GOOD",
+            "5": "GOOD",
+            "6": "GOOD",
+            "7": "AT_RISK",
+            "8": "GOOD",
+            "10": "AT_RISK"
+          },
+          "grandTotal": 147,
+          "standing": "Good",
+          "operationalStatus": "ACTIVE",
+          "slsTickets": "",
+          "comments": ""
+        },
+        {
+          "id": "AJJR76K6G2YFL",
+          "weeks": {
+            "1": null,
+            "2": 1,
+            "3": null,
+            "4": 3,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": 68,
+            "9": null,
+            "10": null,
+            "11": 67,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+          },
+          "weekStandings": {
+            "2": "GREAT",
+            "4": "FANTASTIC",
+            "8": "GOOD",
+            "11": "AT_RISK"
+          },
+          "grandTotal": 139,
+          "standing": "At risk",
+          "operationalStatus": "ACTIVE",
+          "slsTickets": "",
+          "comments": ""
+        },
+        {
+          "id": "A3SR9EMGKJVACF",
+          "weeks": {
+            "1": null,
+            "2": 1,
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": 69,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": 68,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+          },
+          "weekStandings": {
+            "2": "FANTASTIC",
+            "9": "GREAT",
+            "13": "GREAT"
+          },
+          "grandTotal": 138,
+          "standing": "Great",
+          "operationalStatus": "ACTIVE",
+          "slsTickets": "",
+          "comments": ""
+        },
+        {
+          "id": "A2ZGUUJ2GAWM0N",
+          "weeks": {
+            "1": 5,
+            "2": 5,
+            "3": 3,
+            "4": 72,
+            "5": 2,
+            "6": 6,
+            "7": 3,
+            "8": 4,
+            "9": 5,
+            "10": 2,
+            "11": 3,
+            "12": 1,
+            "13": 2,
+            "14": 2,
+            "15": 3,
+            "16": 2,
+            "17": 2,
+            "18": 1,
+            "19": 1
+          },
+          "weekStandings": {
+            "1": "FANTASTIC",
+            "2": "GREAT",
+            "3": "GREAT",
+            "4": "GREAT",
+            "5": "GREAT",
+            "6": "FANTASTIC",
+            "7": "GREAT",
+            "8": "FANTASTIC",
+            "9": "FANTASTIC",
+            "10": "FANTASTIC",
+            "11": "FANTASTIC",
+            "12": "FANTASTIC",
+            "13": "FANTASTIC",
+            "14": "FANTASTIC",
+            "15": "FANTASTIC",
+            "16": "FANTASTIC",
+            "17": "FANTASTIC",
+            "18": "FANTASTIC",
+            "19": "GREAT"
+          },
+          "grandTotal": 124,
+          "standing": "Great",
+          "operationalStatus": "ACTIVE",
+          "slsTickets": "",
+          "comments": ""
+        }
+      ],
+      "total": 10255
+    },
+    "DQD2": {
+      "name": "DQD2",
+      "transporters": [
+        {
+          "id": "A1KIYP80UMY0I7",
+          "weeks": {
+            "1": 233,
+            "2": null,
+            "3": null,
+            "4": 115,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": 121,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+          },
+          "weekStandings": {
+            "1": "AT_RISK",
+            "4": "FANTASTIC",
+            "13": "UNACCEPTABLE"
+          },
+          "grandTotal": 469,
+          "standing": "Great",
+          "operationalStatus": "ACTIVE",
+          "slsTickets": "",
+          "comments": ""
+        },
+        {
+          "id": "AGJO5360BQAJ6",
+          "weeks": {
+            "1": 11,
+            "2": null,
+            "3": null,
+            "4": 19,
+            "5": 5,
+            "6": 20,
+            "7": 5,
+            "8": 72,
+            "9": null,
+            "10": 33,
+            "11": 29,
+            "12": 8,
+            "13": 2,
+            "14": null,
+            "15": 105,
+            "16": null,
+            "17": null,
+            "18": 3,
+            "19": 35
+          },
+          "weekStandings": {
+            "1": "GOOD",
+            "4": "GOOD",
+            "5": "GOOD",
+            "6": "AT_RISK",
+            "7": "GOOD",
+            "8": "AT_RISK",
+            "10": "AT_RISK",
+            "11": "AT_RISK",
+            "12": "AT_RISK",
+            "13": "AT_RISK",
+            "15": "GOOD",
+            "18": "GREAT",
+            "19": "AT_RISK"
+          },
+          "grandTotal": 347,
+          "standing": "At risk",
+          "operationalStatus": "ACTIVE",
+          "slsTickets": "",
+          "comments": ""
+        },
+        {
+          "id": "AOVTKR6MPHRI",
+          "weeks": {
+            "1": null,
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": 116,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": 231
+          },
+          "weekStandings": {
+            "8": "FANTASTIC",
+            "19": "UNACCEPTABLE"
+          },
+          "grandTotal": 347,
+          "standing": "Unacceptable",
+          "operationalStatus": "ACTIVE",
+          "slsTickets": "",
+          "comments": ""
+        },
+        {
+          "id": "A2QLPG61X997X1",
+          "weeks": {
+            "1": 2,
+            "2": 4,
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": 1,
+            "9": null,
+            "10": null,
+            "11": 54,
+            "12": 121,
+            "13": null,
+            "14": 5,
+            "15": 1,
+            "16": null,
+            "17": 109,
+            "18": null,
+            "19": null
+          },
+          "weekStandings": {
+            "1": "GREAT",
+            "2": "GREAT",
+            "8": "GREAT",
+            "11": "GREAT",
+            "12": "GREAT",
+            "14": "GREAT",
+            "15": "GOOD",
+            "17": "UNACCEPTABLE"
+          },
+          "grandTotal": 297,
+          "standing": "Unacceptable",
+          "operationalStatus": "ACTIVE",
+          "slsTickets": "",
+          "comments": ""
+        },
+        {
+          "id": "A17LUI629B32SI",
+          "weeks": {
+            "1": null,
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": 99,
+            "12": null,
+            "13": 1,
+            "14": null,
+            "15": 4,
+            "16": null,
+            "17": null,
+            "18": 101,
+            "19": 75
+          },
+          "weekStandings": {
+            "11": "GREAT",
+            "13": "GREAT",
+            "15": "FANTASTIC",
+            "18": "FANTASTIC",
+            "19": "AT_RISK"
+          },
+          "grandTotal": 280,
+          "standing": "At risk",
+          "operationalStatus": "ACTIVE",
+          "slsTickets": "",
+          "comments": ""
+        }
+      ],
+      "total": 29649
+    },
+    "DQQ1": {
+      "name": "DQQ1",
+      "transporters": [
+        {
+          "id": "A2RTLEMEKJMZBA",
+          "weeks": {
+            "1": null,
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": 1,
+            "6": null,
+            "7": 80,
+            "8": 2,
+            "9": null,
+            "10": 3,
+            "11": 60,
+            "12": 84,
+            "13": 16,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": 96,
+            "18": 2,
+            "19": null
+          },
+          "weekStandings": {
+            "5": "FANTASTIC",
+            "7": "GREAT",
+            "8": "GREAT",
+            "10": "GOOD",
+            "11": "GOOD",
+            "12": "GOOD",
+            "13": "AT_RISK",
+            "17": "UNACCEPTABLE",
+            "18": "UNACCEPTABLE"
+          },
+          "grandTotal": 344,
+          "standing": "Unacceptable",
+          "operationalStatus": "ACTIVE",
+          "slsTickets": "",
+          "comments": ""
+        },
+        {
+          "id": "A22JXJOG9P703C",
+          "weeks": {
+            "1": 19,
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": 2,
+            "6": null,
+            "7": 10,
+            "8": 33,
+            "9": 28,
+            "10": 20,
+            "11": 4,
+            "12": 23,
+            "13": 26,
+            "14": 81,
+            "15": null,
+            "16": 51,
+            "17": 2,
+            "18": 28,
+            "19": 14
+          },
+          "weekStandings": {
+            "1": "GOOD",
+            "5": "GOOD",
+            "7": "GOOD",
+            "8": "AT_RISK",
+            "9": "AT_RISK",
+            "10": "AT_RISK",
+            "11": "GOOD",
+            "12": "GOOD",
+            "13": "AT_RISK",
+            "14": "AT_RISK",
+            "16": "UNACCEPTABLE",
+            "17": "AT_RISK",
+            "18": "AT_RISK",
+            "19": "AT_RISK"
+          },
+          "grandTotal": 341,
+          "standing": "At risk",
+          "operationalStatus": "ACTIVE",
+          "slsTickets": "",
+          "comments": ""
+        },
+        {
+          "id": "A237WZMJJMSMRF",
+          "weeks": {
+            "1": null,
+            "2": null,
+            "3": 76,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": 82,
+            "12": null,
+            "13": 78,
+            "14": 9,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+          },
+          "weekStandings": {
+            "3": "AT_RISK",
+            "11": "GOOD",
+            "13": "UNACCEPTABLE",
+            "14": "AT_RISK"
+          },
+          "grandTotal": 245,
+          "standing": "At risk",
+          "operationalStatus": "OFFBOARDED",
+          "slsTickets": "",
+          "comments": ""
+        },
+        {
+          "id": "A2GPZ4F5QUEEGE",
+          "weeks": {
+            "1": 1,
+            "2": null,
+            "3": null,
+            "4": 1,
+            "5": 63,
+            "6": 1,
+            "7": 1,
+            "8": null,
+            "9": 76,
+            "10": 1,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": 1,
+            "18": null,
+            "19": 79
+          },
+          "weekStandings": {
+            "1": "GREAT",
+            "4": "GREAT",
+            "5": "GREAT",
+            "6": "GREAT",
+            "7": "GREAT",
+            "9": "GREAT",
+            "10": "GREAT",
+            "17": "GREAT",
+            "19": "GREAT"
+          },
+          "grandTotal": 224,
+          "standing": "Great",
+          "operationalStatus": "ACTIVE",
+          "slsTickets": "",
+          "comments": ""
+        },
+        {
+          "id": "A1WH5JOTIP2CAL",
+          "weeks": {
+            "1": 4,
+            "2": 2,
+            "3": 6,
+            "4": 7,
+            "5": null,
+            "6": 46,
+            "7": 4,
+            "8": 3,
+            "9": 3,
+            "10": 4,
+            "11": 15,
+            "12": 2,
+            "13": null,
+            "14": 1,
+            "15": 86,
+            "16": 21,
+            "17": 2,
+            "18": 4,
+            "19": 5
+          },
+          "weekStandings": {
+            "1": "AT_RISK",
+            "2": "GOOD",
+            "3": "AT_RISK",
+            "4": "AT_RISK",
+            "6": "GREAT",
+            "7": "GOOD",
+            "8": "GOOD",
+            "9": "GOOD",
+            "10": "GOOD",
+            "11": "AT_RISK",
+            "12": "AT_RISK",
+            "14": "AT_RISK",
+            "15": "AT_RISK",
+            "16": "UNACCEPTABLE",
+            "17": "AT_RISK",
+            "18": "AT_RISK",
+            "19": "AT_RISK"
+          },
+          "grandTotal": 215,
+          "standing": "Good",
+          "operationalStatus": "ACTIVE",
+          "slsTickets": "",
+          "comments": ""
+        }
+      ],
+      "total": 15616
+    },
+    "DVT1": {
+      "name": "DVT1",
+      "transporters": [
+        {
+          "id": "A2T4GD3WOCQ12C",
+          "weeks": {
+            "1": 1,
+            "2": 50,
+            "3": 81,
+            "4": null,
+            "5": 3,
+            "6": 131,
+            "7": 9,
+            "8": 60,
+            "9": 79,
+            "10": 37,
+            "11": 11,
+            "12": 74,
+            "13": 63,
+            "14": 3,
+            "15": 6,
+            "16": null,
+            "17": 2,
+            "18": 6,
+            "19": 4
+          },
+          "weekStandings": {
+            "1": "FANTASTIC",
+            "2": "AT_RISK",
+            "3": "UNACCEPTABLE",
+            "5": "AT_RISK",
+            "6": "UNACCEPTABLE",
+            "7": "AT_RISK",
+            "8": "AT_RISK",
+            "9": "GOOD",
+            "10": "AT_RISK",
+            "11": "GOOD",
+            "12": "AT_RISK",
+            "13": "UNACCEPTABLE",
+            "14": "UNACCEPTABLE",
+            "15": "AT_RISK",
+            "17": "AT_RISK",
+            "18": "AT_RISK",
+            "19": "AT_RISK"
+          },
+          "grandTotal": 620,
+          "standing": "At risk",
+          "operationalStatus": "ACTIVE",
+          "slsTickets": "",
+          "comments": ""
+        },
+        {
+          "id": "A27CRQM3IVHHNB",
+          "weeks": {
+            "1": 63,
+            "2": 63,
+            "3": 65,
+            "4": 79,
+            "5": 71,
+            "6": 2,
+            "7": 57,
+            "8": 1,
+            "9": 2,
+            "10": null,
+            "11": 83,
+            "12": 4,
+            "13": 46,
+            "14": 42,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+          },
+          "weekStandings": {
+            "1": "GOOD",
+            "2": "AT_RISK",
+            "3": "GOOD",
+            "4": "AT_RISK",
+            "5": "AT_RISK",
+            "6": "AT_RISK",
+            "7": "GOOD",
+            "8": "GOOD",
+            "9": "GOOD",
+            "11": "GREAT",
+            "12": "GOOD",
+            "13": "GOOD",
+            "14": "GOOD"
+          },
+          "grandTotal": 578,
+          "standing": "Great",
+          "operationalStatus": "ACTIVE",
+          "slsTickets": "",
+          "comments": ""
+        },
+        {
+          "id": "A2D7MLMD7LY4RF",
+          "weeks": {
+            "1": null,
+            "2": null,
+            "3": 53,
+            "4": null,
+            "5": null,
+            "6": 14,
+            "7": 2,
+            "8": null,
+            "9": null,
+            "10": 46,
+            "11": 35,
+            "12": 1,
+            "13": 104,
+            "14": null,
+            "15": 50,
+            "16": 117,
+            "17": null,
+            "18": null,
+            "19": 109
+          },
+          "weekStandings": {
+            "3": "AT_RISK",
+            "6": "GREAT",
+            "7": "GOOD",
+            "10": "GREAT",
+            "11": "AT_RISK",
+            "12": "GOOD",
+            "13": "UNACCEPTABLE",
+            "15": "AT_RISK",
+            "16": "FANTASTIC",
+            "19": "AT_RISK"
+          },
+          "grandTotal": 531,
+          "standing": "At risk",
+          "operationalStatus": "ACTIVE",
+          "slsTickets": "",
+          "comments": ""
+        },
+        {
+          "id": "A30B36UQYLDSG",
+          "weeks": {
+            "1": 56,
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": 79,
+            "8": null,
+            "9": 2,
+            "10": 2,
+            "11": null,
+            "12": 3,
+            "13": null,
+            "14": 174,
+            "15": null,
+            "16": 114,
+            "17": 73,
+            "18": null,
+            "19": 20
+          },
+          "weekStandings": {
+            "1": "FANTASTIC",
+            "7": "UNACCEPTABLE",
+            "9": "FANTASTIC",
+            "10": "FANTASTIC",
+            "12": "GREAT",
+            "14": "FANTASTIC",
+            "16": "FANTASTIC",
+            "17": "AT_RISK",
+            "19": "GREAT"
+          },
+          "grandTotal": 523,
+          "standing": "Great",
+          "operationalStatus": "ACTIVE",
+          "slsTickets": "",
+          "comments": ""
+        },
+        {
+          "id": "A280DA1B0GYEEA",
+          "weeks": {
+            "1": 49,
+            "2": 37,
+            "3": 2,
+            "4": 5,
+            "5": 101,
+            "6": 48,
+            "7": 21,
+            "8": null,
+            "9": 5,
+            "10": null,
+            "11": 41,
+            "12": null,
+            "13": 3,
+            "14": 51,
+            "15": 13,
+            "16": 2,
+            "17": 57,
+            "18": 2,
+            "19": 73
+          },
+          "weekStandings": {
+            "1": "UNACCEPTABLE",
+            "2": "AT_RISK",
+            "3": "AT_RISK",
+            "4": "GOOD",
+            "5": "FANTASTIC",
+            "6": "AT_RISK",
+            "7": "AT_RISK",
+            "9": "GREAT",
+            "11": "GREAT",
+            "13": "GREAT",
+            "14": "AT_RISK",
+            "15": "AT_RISK",
+            "16": "GREAT",
+            "17": "GREAT",
+            "18": "GREAT",
+            "19": "UNACCEPTABLE"
+          },
+          "grandTotal": 510,
+          "standing": "Unacceptable",
+          "operationalStatus": "ACTIVE",
+          "slsTickets": "",
+          "comments": ""
+        }
+      ],
+      "total": 46471
+    },
+    "DVT4": {
+      "name": "DVT4",
+      "transporters": [
+        {
+          "id": "A3K8158IDLGKRA",
+          "weeks": {
+            "1": null,
+            "2": 65,
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": 28,
+            "11": 87,
+            "12": 76,
+            "13": 102,
+            "14": 136,
+            "15": 135,
+            "16": 161,
+            "17": 46,
+            "18": null,
+            "19": 94
+          },
+          "weekStandings": {
+            "2": "AT_RISK",
+            "10": "GOOD",
+            "11": "GOOD",
+            "12": "UNACCEPTABLE",
+            "13": "AT_RISK",
+            "14": "UNACCEPTABLE",
+            "15": "UNACCEPTABLE",
+            "16": "UNACCEPTABLE",
+            "17": "UNACCEPTABLE",
+            "19": "UNACCEPTABLE"
+          },
+          "grandTotal": 930,
+          "standing": "Unacceptable",
+          "operationalStatus": "ACTIVE",
+          "slsTickets": "",
+          "comments": ""
+        },
+        {
+          "id": "A1L5IH2DKLGAKV",
+          "weeks": {
+            "1": null,
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": 3,
+            "6": 1,
+            "7": null,
+            "8": null,
+            "9": 27,
+            "10": null,
+            "11": 6,
+            "12": 22,
+            "13": 62,
+            "14": 3,
+            "15": 137,
+            "16": 87,
+            "17": 19,
+            "18": 69,
+            "19": null
+          },
+          "weekStandings": {
+            "5": "GREAT",
+            "6": "GREAT",
+            "9": "UNACCEPTABLE",
+            "11": "AT_RISK",
+            "12": "FANTASTIC",
+            "13": "FANTASTIC",
+            "14": "FANTASTIC",
+            "15": "UNACCEPTABLE",
+            "16": "UNACCEPTABLE",
+            "17": "UNACCEPTABLE",
+            "18": "UNACCEPTABLE"
+          },
+          "grandTotal": 436,
+          "standing": "At risk",
+          "operationalStatus": "ACTIVE",
+          "slsTickets": "",
+          "comments": ""
+        },
+        {
+          "id": "A31VSHT84WD1PF",
+          "weeks": {
+            "1": 4,
+            "2": null,
+            "3": null,
+            "4": 73,
+            "5": 2,
+            "6": 3,
+            "7": 8,
+            "8": 26,
+            "9": 48,
+            "10": 6,
+            "11": 78,
+            "12": 85,
+            "13": 4,
+            "14": 3,
+            "15": 3,
+            "16": 79,
+            "17": null,
+            "18": null,
+            "19": null
+          },
+          "weekStandings": {
+            "1": "FANTASTIC",
+            "4": "FANTASTIC",
+            "5": "FANTASTIC",
+            "6": "FANTASTIC",
+            "7": "UNACCEPTABLE",
+            "8": "GREAT",
+            "9": "GREAT",
+            "10": "GREAT",
+            "11": "AT_RISK",
+            "12": "FANTASTIC",
+            "13": "FANTASTIC",
+            "14": "FANTASTIC",
+            "15": "FANTASTIC",
+            "16": "UNACCEPTABLE"
+          },
+          "grandTotal": 422,
+          "standing": "Unacceptable",
+          "operationalStatus": "INACTIVE",
+          "slsTickets": "",
+          "comments": ""
+        },
+        {
+          "id": "A2LS1JG9NJEA2U",
+          "weeks": {
+            "1": 1,
+            "2": 1,
+            "3": 81,
+            "4": 3,
+            "5": 63,
+            "6": 1,
+            "7": 2,
+            "8": 2,
+            "9": 3,
+            "10": 2,
+            "11": 5,
+            "12": 7,
+            "13": 4,
+            "14": 72,
+            "15": 3,
+            "16": 1,
+            "17": 1,
+            "18": 78,
+            "19": null
+          },
+          "weekStandings": {
+            "1": "GREAT",
+            "2": "GREAT",
+            "3": "GREAT",
+            "4": "GREAT",
+            "5": "AT_RISK",
+            "6": "AT_RISK",
+            "7": "GREAT",
+            "8": "GREAT",
+            "9": "GREAT",
+            "10": "GREAT",
+            "11": "GREAT",
+            "12": "GOOD",
+            "13": "GOOD",
+            "14": "GREAT",
+            "15": "GOOD",
+            "16": "GOOD",
+            "17": "GREAT",
+            "18": "GREAT"
+          },
+          "grandTotal": 330,
+          "standing": "Great",
+          "operationalStatus": "ACTIVE",
+          "slsTickets": "",
+          "comments": ""
+        },
+        {
+          "id": "A2BMTD8EK824MC",
+          "weeks": {
+            "1": null,
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": 55,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": 71,
+            "13": null,
+            "14": 78,
+            "15": null,
+            "16": 55,
+            "17": null,
+            "18": 68,
+            "19": null
+          },
+          "weekStandings": {
+            "6": "GREAT",
+            "12": "GREAT",
+            "14": "GOOD",
+            "16": "GOOD",
+            "18": "GREAT"
+          },
+          "grandTotal": 327,
+          "standing": "Great",
+          "operationalStatus": "ACTIVE",
+          "slsTickets": "",
+          "comments": ""
+        }
+      ],
+      "total": 40103
+    },
+    "DWT1": {
+      "name": "DWT1",
+      "transporters": [
+        {
+          "id": "A11661D1WRKCPC",
+          "weeks": {
+            "1": 3,
+            "2": 118,
+            "3": 4,
+            "4": 3,
+            "5": 2,
+            "6": 1,
+            "7": 3,
+            "8": 2,
+            "9": 3,
+            "10": 3,
+            "11": 11,
+            "12": 6,
+            "13": 115,
+            "14": null,
+            "15": 9,
+            "16": 5,
+            "17": 6,
+            "18": null,
+            "19": 6
+          },
+          "weekStandings": {
+            "1": "GREAT",
+            "2": "FANTASTIC",
+            "3": "FANTASTIC",
+            "4": "FANTASTIC",
+            "5": "FANTASTIC",
+            "6": "FANTASTIC",
+            "7": "FANTASTIC",
+            "8": "FANTASTIC",
+            "9": "GREAT",
+            "10": "GREAT",
+            "11": "GOOD",
+            "12": "GOOD",
+            "13": "UNACCEPTABLE",
+            "15": "GREAT",
+            "16": "GOOD",
+            "17": "GOOD",
+            "19": "GREAT"
+          },
+          "grandTotal": 300,
+          "standing": "Great",
+          "operationalStatus": "ACTIVE",
+          "slsTickets": "",
+          "comments": ""
+        },
+        {
+          "id": "A2UJW81NJSIX05",
+          "weeks": {
+            "1": null,
+            "2": null,
+            "3": null,
+            "4": 76,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": 126,
+            "17": null,
+            "18": 87,
+            "19": null
+          },
+          "weekStandings": {
+            "4": "GREAT",
+            "16": "UNACCEPTABLE",
+            "18": "UNACCEPTABLE"
+          },
+          "grandTotal": 289,
+          "standing": "Fantastic",
+          "operationalStatus": "ACTIVE",
+          "slsTickets": "",
+          "comments": ""
+        },
+        {
+          "id": "A2AV4U93W515D8",
+          "weeks": {
+            "1": null,
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": 15,
+            "8": 43,
+            "9": null,
+            "10": 115,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": 98,
+            "19": null
+          },
+          "weekStandings": {
+            "7": "GOOD",
+            "8": "AT_RISK",
+            "10": "AT_RISK",
+            "18": "UNACCEPTABLE"
+          },
+          "grandTotal": 271,
+          "standing": "Unacceptable",
+          "operationalStatus": "ACTIVE",
+          "slsTickets": "",
+          "comments": ""
+        },
+        {
+          "id": "A1USI2MG3JYE0E",
+          "weeks": {
+            "1": null,
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": 1,
+            "6": 60,
+            "7": null,
+            "8": null,
+            "9": 91,
+            "10": 1,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": 91,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+          },
+          "weekStandings": {
+            "5": "GREAT",
+            "6": "GREAT",
+            "9": "GREAT",
+            "10": "AT_RISK",
+            "15": "GREAT"
+          },
+          "grandTotal": 244,
+          "standing": "Great",
+          "operationalStatus": "ACTIVE",
+          "slsTickets": "",
+          "comments": ""
+        },
+        {
+          "id": "AEQEHPJUXO6B8",
+          "weeks": {
+            "1": 79,
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": 47,
+            "6": null,
+            "7": null,
+            "8": 21,
+            "9": null,
+            "10": null,
+            "11": 1,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": 49,
+            "16": null,
+            "17": 33,
+            "18": null,
+            "19": null
+          },
+          "weekStandings": {
+            "1": "GREAT",
+            "5": "GREAT",
+            "8": "GOOD",
+            "11": "GREAT",
+            "15": "FANTASTIC",
+            "17": "GREAT"
+          },
+          "grandTotal": 230,
+          "standing": "Great",
+          "operationalStatus": "ACTIVE",
+          "slsTickets": "",
+          "comments": ""
+        }
+      ],
+      "total": 13564
+    },
+    "XGC1": {
+      "name": "XGC1",
+      "transporters": [
+        {
+          "id": "AAEG13L33K9A7",
+          "weeks": {
+            "1": null,
+            "2": 1,
+            "3": 36,
+            "4": 9,
+            "5": null,
+            "6": 4,
+            "7": 74,
+            "8": 5,
+            "9": 71,
+            "10": 37,
+            "11": 5,
+            "12": 3,
+            "13": 63,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+          },
+          "weekStandings": {
+            "2": "GOOD",
+            "3": "GOOD",
+            "4": "AT_RISK",
+            "6": "GOOD",
+            "7": "AT_RISK",
+            "8": "GREAT",
+            "9": "AT_RISK",
+            "10": "UNACCEPTABLE",
+            "11": "AT_RISK",
+            "12": "AT_RISK",
+            "13": "UNACCEPTABLE"
+          },
+          "grandTotal": 308,
+          "standing": "Unacceptable",
+          "operationalStatus": "ACTIVE",
+          "slsTickets": "",
+          "comments": ""
+        },
+        {
+          "id": "A3DSRN6V2UPWV3",
+          "weeks": {
+            "1": 3,
+            "2": 43,
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": 1,
+            "11": 55,
+            "12": null,
+            "13": 1,
+            "14": 2,
+            "15": 5,
+            "16": 3,
+            "17": 85,
+            "18": null,
+            "19": null
+          },
+          "weekStandings": {
+            "1": "FANTASTIC",
+            "2": "GREAT",
+            "10": "FANTASTIC",
+            "11": "GREAT",
+            "13": "FANTASTIC",
+            "14": "GREAT",
+            "15": "GREAT",
+            "16": "GREAT",
+            "17": "GREAT"
+          },
+          "grandTotal": 198,
+          "standing": "Great",
+          "operationalStatus": "ACTIVE",
+          "slsTickets": "",
+          "comments": ""
+        },
+        {
+          "id": "A2DA5JELYRM5LJ",
+          "weeks": {
+            "1": 38,
+            "2": 12,
+            "3": 52,
+            "4": 6,
+            "5": 53,
+            "6": 15,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+          },
+          "weekStandings": {
+            "1": "GREAT",
+            "2": "GOOD",
+            "3": "AT_RISK",
+            "4": "AT_RISK",
+            "5": "AT_RISK",
+            "6": "UNACCEPTABLE"
+          },
+          "grandTotal": 176,
+          "standing": "Unacceptable",
+          "operationalStatus": "OFFBOARDED",
+          "slsTickets": "",
+          "comments": ""
+        },
+        {
+          "id": "A22TJY7UKTJ6MG",
+          "weeks": {
+            "1": null,
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": 11,
+            "9": null,
+            "10": null,
+            "11": 21,
+            "12": null,
+            "13": 50,
+            "14": 30,
+            "15": null,
+            "16": null,
+            "17": 16,
+            "18": 47,
+            "19": null
+          },
+          "weekStandings": {
+            "8": "GREAT",
+            "11": "GOOD",
+            "13": "GOOD",
+            "14": "AT_RISK",
+            "17": "FANTASTIC",
+            "18": "AT_RISK"
+          },
+          "grandTotal": 175,
+          "standing": "At risk",
+          "operationalStatus": "ACTIVE",
+          "slsTickets": "",
+          "comments": ""
+        },
+        {
+          "id": "A1A0Q5KQHJQXVN",
+          "weeks": {
+            "1": null,
+            "2": null,
+            "3": 1,
+            "4": 47,
+            "5": 8,
+            "6": 8,
+            "7": 1,
+            "8": 4,
+            "9": 38,
+            "10": null,
+            "11": 2,
+            "12": 1,
+            "13": 1,
+            "14": 44,
+            "15": null,
+            "16": 2,
+            "17": null,
+            "18": null,
+            "19": null
+          },
+          "weekStandings": {
+            "3": "GOOD",
+            "4": "GREAT",
+            "5": "GREAT",
+            "6": "GOOD",
+            "7": "GOOD",
+            "8": "AT_RISK",
+            "9": "UNACCEPTABLE",
+            "11": "AT_RISK",
+            "12": "GREAT",
+            "13": "FANTASTIC",
+            "14": "FANTASTIC",
+            "16": "GOOD"
+          },
+          "grandTotal": 157,
+          "standing": "Great",
+          "operationalStatus": "OFFBOARDED",
+          "slsTickets": "",
+          "comments": ""
+        }
+      ],
+      "total": 7625
+    },
+    "XGE4": {
+      "name": "XGE4",
+      "transporters": [
+        {
+          "id": "A36AYD53WKY7ZU",
+          "weeks": {
+            "1": 3,
+            "2": 17,
+            "3": 2,
+            "4": 10,
+            "5": null,
+            "6": 39,
+            "7": 2,
+            "8": null,
+            "9": 5,
+            "10": 1,
+            "11": null,
+            "12": 4,
+            "13": 11,
+            "14": 4,
+            "15": 8,
+            "16": 5,
+            "17": null,
+            "18": null,
+            "19": 10
+          },
+          "weekStandings": {
+            "1": "GREAT",
+            "2": "GREAT",
+            "3": "GOOD",
+            "4": "GOOD",
+            "6": "AT_RISK",
+            "7": "AT_RISK",
+            "9": "GOOD",
+            "10": "GREAT",
+            "12": "GREAT",
+            "13": "GOOD",
+            "14": "GOOD",
+            "15": "UNACCEPTABLE",
+            "16": "AT_RISK",
+            "19": "GREAT"
+          },
+          "grandTotal": 121,
+          "standing": "Great",
+          "operationalStatus": "ACTIVE",
+          "slsTickets": "",
+          "comments": ""
+        },
+        {
+          "id": "A2U9OLJYFA4ZIC",
+          "weeks": {
+            "1": null,
+            "2": null,
+            "3": 2,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": 1,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": 2,
+            "16": null,
+            "17": null,
+            "18": 107,
+            "19": null
+          },
+          "weekStandings": {
+            "3": "FANTASTIC",
+            "10": "FANTASTIC",
+            "15": "FANTASTIC",
+            "18": "FANTASTIC"
+          },
+          "grandTotal": 112,
+          "standing": "Great",
+          "operationalStatus": "ACTIVE",
+          "slsTickets": "",
+          "comments": ""
+        },
+        {
+          "id": "AXMJBCG2773DI",
+          "weeks": {
+            "1": null,
+            "2": 95,
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": 1,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": 1
+          },
+          "weekStandings": {
+            "2": "AT_RISK",
+            "14": "AT_RISK",
+            "19": "GOOD"
+          },
+          "grandTotal": 97,
+          "standing": "At risk",
+          "operationalStatus": "ACTIVE",
+          "slsTickets": "",
+          "comments": ""
+        },
+        {
+          "id": "AGVW5TT97X33D",
+          "weeks": {
+            "1": 82,
+            "2": 2,
+            "3": 2,
+            "4": null,
+            "5": null,
+            "6": 1,
+            "7": null,
+            "8": 1,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+          },
+          "weekStandings": {
+            "1": "FANTASTIC",
+            "2": "FANTASTIC",
+            "3": "FANTASTIC",
+            "6": "FANTASTIC",
+            "8": "FANTASTIC"
+          },
+          "grandTotal": 88,
+          "standing": "Fantastic",
+          "operationalStatus": "ACTIVE",
+          "slsTickets": "",
+          "comments": ""
+        },
+        {
+          "id": "AE3DH32HWZ1KW",
+          "weeks": {
+            "1": null,
+            "2": null,
+            "3": null,
+            "4": 83,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": 1,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+          },
+          "weekStandings": {
+            "4": "FANTASTIC",
+            "8": "GREAT"
+          },
+          "grandTotal": 84,
+          "standing": "Fantastic",
+          "operationalStatus": "ACTIVE",
+          "slsTickets": "",
+          "comments": ""
+        }
+      ],
+      "total": 2394
+    },
+    "XNC1": {
+      "name": "XNC1",
+      "transporters": [
+        {
+          "id": "A3RPDKCJTMZHFT",
+          "weeks": {
+            "1": 32,
+            "2": 70,
+            "3": null,
+            "4": 63,
+            "5": 67,
+            "6": 63,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+          },
+          "weekStandings": {
+            "1": "AT_RISK",
+            "2": "AT_RISK",
+            "4": "AT_RISK",
+            "5": "UNACCEPTABLE",
+            "6": "UNACCEPTABLE"
+          },
+          "grandTotal": 295,
+          "standing": "Unacceptable",
+          "operationalStatus": "OFFBOARDED",
+          "slsTickets": "",
+          "comments": ""
+        },
+        {
+          "id": "AJ5F2NDY2KOCW",
+          "weeks": {
+            "1": 46,
+            "2": 52,
+            "3": 41,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": 37,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": 3
+          },
+          "weekStandings": {
+            "1": "GOOD",
+            "2": "GREAT",
+            "3": "GREAT",
+            "10": "AT_RISK",
+            "19": "GOOD"
+          },
+          "grandTotal": 179,
+          "standing": "At risk",
+          "operationalStatus": "ACTIVE",
+          "slsTickets": "",
+          "comments": ""
+        },
+        {
+          "id": "A1ZY0FBUZRDU0I",
+          "weeks": {
+            "1": null,
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": 1,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": 82,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": 30,
+            "18": null,
+            "19": null
+          },
+          "weekStandings": {
+            "6": "GREAT",
+            "13": "FANTASTIC",
+            "17": "GOOD"
+          },
+          "grandTotal": 113,
+          "standing": "Great",
+          "operationalStatus": "ACTIVE",
+          "slsTickets": "",
+          "comments": ""
+        },
+        {
+          "id": "A35DCXSHB0X2UY",
+          "weeks": {
+            "1": null,
+            "2": 1,
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": 2,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": 103,
+            "18": 2,
+            "19": null
+          },
+          "weekStandings": {
+            "2": "GREAT",
+            "13": "FANTASTIC",
+            "17": "GREAT",
+            "18": "FANTASTIC"
+          },
+          "grandTotal": 108,
+          "standing": "Great",
+          "operationalStatus": "ACTIVE",
+          "slsTickets": "",
+          "comments": ""
+        },
+        {
+          "id": "A2HKO7M53FHNR7",
+          "weeks": {
+            "1": null,
+            "2": 56,
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": 1,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": 46,
+            "19": null
+          },
+          "weekStandings": {
+            "2": "FANTASTIC",
+            "10": "GREAT",
+            "18": "GOOD"
+          },
+          "grandTotal": 103,
+          "standing": "Good",
+          "operationalStatus": "ACTIVE",
+          "slsTickets": "",
+          "comments": ""
+        }
+      ],
+      "total": 3344
+    },
+    "XWG1": {
+      "name": "XWG1",
+      "transporters": [
+        {
+          "id": "A2W6MAL3BHAK4B",
+          "weeks": {
+            "1": null,
+            "2": null,
+            "3": 101,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+          },
+          "weekStandings": {
+            "3": "GREAT"
+          },
+          "grandTotal": 101,
+          "standing": "At risk",
+          "operationalStatus": "OFFBOARDED",
+          "slsTickets": "",
+          "comments": ""
+        },
+        {
+          "id": "A3R9EGFOB72ITV",
+          "weeks": {
+            "1": null,
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": 1,
+            "8": 1,
+            "9": 3,
+            "10": 54,
+            "11": null,
+            "12": null,
+            "13": 29,
+            "14": 1,
+            "15": 1,
+            "16": null,
+            "17": 1,
+            "18": 1,
+            "19": 1
+          },
+          "weekStandings": {
+            "7": "GREAT",
+            "8": "GREAT",
+            "9": "GREAT",
+            "10": "GREAT",
+            "13": "GREAT",
+            "14": "GREAT",
+            "15": "GREAT",
+            "17": "GREAT",
+            "18": "GREAT",
+            "19": "GREAT"
+          },
+          "grandTotal": 93,
+          "standing": "Great",
+          "operationalStatus": "ACTIVE",
+          "slsTickets": "",
+          "comments": ""
+        },
+        {
+          "id": "A3EAHY65MSBCSG",
+          "weeks": {
+            "1": null,
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": 3,
+            "14": null,
+            "15": 78,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+          },
+          "weekStandings": {
+            "13": "GREAT",
+            "15": "AT_RISK"
+          },
+          "grandTotal": 81,
+          "standing": "At risk",
+          "operationalStatus": "OFFBOARDED",
+          "slsTickets": "",
+          "comments": ""
+        },
+        {
+          "id": "A3V2VZ43VUT2ZL",
+          "weeks": {
+            "1": null,
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": 64,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+          },
+          "weekStandings": {
+            "10": "AT_RISK"
+          },
+          "grandTotal": 64,
+          "standing": "Fantastic",
+          "operationalStatus": "ACTIVE",
+          "slsTickets": "",
+          "comments": ""
+        },
+        {
+          "id": "A1V08OCZUHVV8H",
+          "weeks": {
+            "1": 1,
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": 50,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+          },
+          "weekStandings": {
+            "1": "GREAT",
+            "15": "GREAT"
+          },
+          "grandTotal": 51,
+          "standing": "Great",
+          "operationalStatus": "ACTIVE",
+          "slsTickets": "",
+          "comments": ""
+        }
+      ],
+      "total": 1074
+    }
+  },
+  "suburbData": {
+    "DNS4": {
+      "name": "DNS4",
+      "postcodes": [
+        {
+          "postcode": "2099",
+          "notAttempted": 734,
+          "serviceType": "AmFlex Large Vehicle - AU"
+        },
+        {
+          "postcode": "2107",
+          "notAttempted": 343,
+          "serviceType": "AmFlex Large Vehicle - AU"
+        },
+        {
+          "postcode": "2095",
+          "notAttempted": 305,
+          "serviceType": "AmFlex Large Vehicle - AU"
+        },
+        {
+          "postcode": "2067",
+          "notAttempted": 298,
+          "serviceType": "AmFlex Large Vehicle - AU"
+        },
+        {
+          "postcode": "2113",
+          "notAttempted": 251,
+          "serviceType": "AmFlex Large Van 2.0 Nursery Route 2"
+        }
+      ]
+    },
+    "DNS5": {
+      "name": "DNS5",
+      "postcodes": [
+        {
+          "postcode": "2145",
+          "notAttempted": 454,
+          "serviceType": "AmFlex Large Van 2.0 Nursery Route 2"
+        },
+        {
+          "postcode": "2745",
+          "notAttempted": 352,
+          "serviceType": "AmFlex Large Van 2.0 Nursery Route 2"
+        },
+        {
+          "postcode": "2750",
+          "notAttempted": 343,
+          "serviceType": "AmFlex Large Vehicle - AU"
+        },
+        {
+          "postcode": "2148",
+          "notAttempted": 312,
+          "serviceType": "AmFlex Large Van 2.0 Nursery Route 2"
+        },
+        {
+          "postcode": "2753",
+          "notAttempted": 292,
+          "serviceType": "AmFlex Large Vehicle - AU"
+        }
+      ]
+    },
+    "DNS6": {
+      "name": "DNS6",
+      "postcodes": [
+        {
+          "postcode": "2150",
+          "notAttempted": 496,
+          "serviceType": "AmFlex Large Vehicle - AU"
+        },
+        {
+          "postcode": "2010",
+          "notAttempted": 480,
+          "serviceType": "AmFlex Car+ 2.0 Nursery Route 2"
+        },
+        {
+          "postcode": "2170",
+          "notAttempted": 473,
+          "serviceType": "AmFlex Large Vehicle - AU"
+        },
+        {
+          "postcode": "2560",
+          "notAttempted": 469,
+          "serviceType": "AmFlex Large Vehicle - AU"
+        },
+        {
+          "postcode": "2011",
+          "notAttempted": 408,
+          "serviceType": "AmFlex Large Vehicle - AU"
+        }
+      ]
+    },
+    "DQD2": {
+      "name": "DQD2",
+      "postcodes": [
+        {
+          "postcode": "4101",
+          "notAttempted": 1728,
+          "serviceType": "AmFlex Car+ 2.0 Nursery Route 1"
+        },
+        {
+          "postcode": "4207",
+          "notAttempted": 1586,
+          "serviceType": "AmFlex Large Vehicle - AU"
+        },
+        {
+          "postcode": "4500",
+          "notAttempted": 1365,
+          "serviceType": "AmFlex Large Van 2.0"
+        },
+        {
+          "postcode": "4069",
+          "notAttempted": 1211,
+          "serviceType": "AmFlex Car+ 2.0 Nursery Route 1"
+        },
+        {
+          "postcode": "4017",
+          "notAttempted": 975,
+          "serviceType": "AmFlex Car+ 2.0 Nursery Route 1"
+        }
+      ]
+    },
+    "DQQ1": {
+      "name": "DQQ1",
+      "postcodes": [
+        {
+          "postcode": "5000",
+          "notAttempted": 761,
+          "serviceType": "AmFlex Car+ 2.0 Nursery Route 1"
+        },
+        {
+          "postcode": "5159",
+          "notAttempted": 655,
+          "serviceType": "AmFlex Car+ 2.0 Nursery Route 1"
+        },
+        {
+          "postcode": "5051",
+          "notAttempted": 459,
+          "serviceType": "AmFlex Large Vehicle - AU"
+        },
+        {
+          "postcode": "5158",
+          "notAttempted": 437,
+          "serviceType": "AmFlex Car+ 2.0 Nursery Route 1"
+        },
+        {
+          "postcode": "5162",
+          "notAttempted": 374,
+          "serviceType": "AmFlex Car+ 2.0 Nursery Route 1"
+        }
+      ]
+    },
+    "DVT1": {
+      "name": "DVT1",
+      "postcodes": [
+        {
+          "postcode": "3113",
+          "notAttempted": 2042,
+          "serviceType": "AmFlex Large Van 2.0 Nursery Route 2"
+        },
+        {
+          "postcode": "3796",
+          "notAttempted": 1239,
+          "serviceType": "AmFlex Large Van 2.0 Nursery Route 2"
+        },
+        {
+          "postcode": "3977",
+          "notAttempted": 1149,
+          "serviceType": "AmFlex Large Van 2.0 Nursery Route 2"
+        },
+        {
+          "postcode": "3160",
+          "notAttempted": 1117,
+          "serviceType": "AmFlex Large Vehicle - AU"
+        },
+        {
+          "postcode": "3138",
+          "notAttempted": 1005,
+          "serviceType": "AmFlex Large Van 2.0 Nursery Route 2"
+        }
+      ]
+    },
+    "DVT4": {
+      "name": "DVT4",
+      "postcodes": [
+        {
+          "postcode": "3053",
+          "notAttempted": 1559,
+          "serviceType": "AmFlex Large Vehicle - AU"
+        },
+        {
+          "postcode": "3095",
+          "notAttempted": 1165,
+          "serviceType": "AmFlex Large Van 2.0 Nursery Route 2"
+        },
+        {
+          "postcode": "3429",
+          "notAttempted": 912,
+          "serviceType": "AmFlex Large Van 2.0 Nursery Route 2"
+        },
+        {
+          "postcode": "3064",
+          "notAttempted": 909,
+          "serviceType": "AmFlex Large Vehicle - AU"
+        },
+        {
+          "postcode": "3088",
+          "notAttempted": 833,
+          "serviceType": "AmFlex Large Vehicle - AU"
+        }
+      ]
+    },
+    "DWT1": {
+      "name": "DWT1",
+      "postcodes": [
+        {
+          "postcode": "6076",
+          "notAttempted": 632,
+          "serviceType": "AmFlex Large Vehicle - AU"
+        },
+        {
+          "postcode": "6163",
+          "notAttempted": 545,
+          "serviceType": "AmFlex Large Vehicle - AU"
+        },
+        {
+          "postcode": "6111",
+          "notAttempted": 535,
+          "serviceType": "AmFlex Large Vehicle - AU"
+        },
+        {
+          "postcode": "6000",
+          "notAttempted": 409,
+          "serviceType": "AmFlex Car+ 2.0"
+        },
+        {
+          "postcode": "6056",
+          "notAttempted": 339,
+          "serviceType": "AmFlex Large Vehicle - AU"
+        }
+      ]
+    },
+    "XGC1": {
+      "name": "XGC1",
+      "postcodes": [
+        {
+          "postcode": "4217",
+          "notAttempted": 934,
+          "serviceType": "AmFlex Car+ 2.0 Nursery Route 1"
+        },
+        {
+          "postcode": "4215",
+          "notAttempted": 669,
+          "serviceType": "AmFlex Car+ 2.0 Nursery Route 1"
+        },
+        {
+          "postcode": "4211",
+          "notAttempted": 573,
+          "serviceType": "AmFlex Car+ 2.0 Nursery Route 1"
+        },
+        {
+          "postcode": "4272",
+          "notAttempted": 510,
+          "serviceType": "AmFlex Car+ 2.0 Nursery Route 1"
+        },
+        {
+          "postcode": "4218",
+          "notAttempted": 431,
+          "serviceType": "AmFlex Large Vehicle - AU"
+        }
+      ]
+    },
+    "XGE4": {
+      "name": "XGE4",
+      "postcodes": [
+        {
+          "postcode": "3216",
+          "notAttempted": 385,
+          "serviceType": "AmFlex Large Vehicle - AU"
+        },
+        {
+          "postcode": "3222",
+          "notAttempted": 197,
+          "serviceType": "AmFlex Large Vehicle - AU"
+        },
+        {
+          "postcode": "3228",
+          "notAttempted": 159,
+          "serviceType": "AmFlex Car+ 2.0 Nursery Route 2"
+        },
+        {
+          "postcode": "3331",
+          "notAttempted": 154,
+          "serviceType": "AmFlex Large Van 2.0 Nursery Route 2"
+        },
+        {
+          "postcode": "3223",
+          "notAttempted": 150,
+          "serviceType": "AmFlex Large Van 2.0 Nursery Route 2"
+        }
+      ]
+    },
+    "XNC1": {
+      "name": "XNC1",
+      "postcodes": [
+        {
+          "postcode": "2283",
+          "notAttempted": 625,
+          "serviceType": "AmFlex Large Vehicle - AU"
+        },
+        {
+          "postcode": "2300",
+          "notAttempted": 326,
+          "serviceType": "AmFlex Large Vehicle - AU"
+        },
+        {
+          "postcode": "2282",
+          "notAttempted": 265,
+          "serviceType": "AmFlex Large Vehicle - AU"
+        },
+        {
+          "postcode": "2285",
+          "notAttempted": 219,
+          "serviceType": "AmFlex Car+ 2.0 Nursery Route 1"
+        },
+        {
+          "postcode": "2318",
+          "notAttempted": 173,
+          "serviceType": "AmFlex Large Van 2.0 Nursery Route 2"
+        }
+      ]
+    },
+    "XWG1": {
+      "name": "XWG1",
+      "postcodes": [
+        {
+          "postcode": "2251",
+          "notAttempted": 220,
+          "serviceType": "AmFlex Car+ 2.0 Nursery Route 1"
+        },
+        {
+          "postcode": "2259",
+          "notAttempted": 169,
+          "serviceType": "AmFlex Car+ 2.0 Nursery Route 1"
+        },
+        {
+          "postcode": "2250",
+          "notAttempted": 167,
+          "serviceType": "AmFlex Car+ 2.0 Nursery Route 1"
+        },
+        {
+          "postcode": "2264",
+          "notAttempted": 121,
+          "serviceType": "AmFlex Large Van 2.0 Nursery Route 2"
+        },
+        {
+          "postcode": "2260",
+          "notAttempted": 114,
+          "serviceType": "AmFlex Large Vehicle - AU"
+        }
+      ]
+    }
+  },
+  "weeks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "lastUpdated": "2026-05-13T03:49:10.155Z"
 }
