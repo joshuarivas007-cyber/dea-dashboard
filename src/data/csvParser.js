@@ -57,7 +57,7 @@ export function transformToStationData(rows) {
       stationMap[station] = {};
     }
     if (!stationMap[station][transporter]) {
-      stationMap[station][transporter] = { weeks: {}, standing: standing, count: 0 };
+      stationMap[station][transporter] = { weeks: {}, weekStandings: {}, standing: standing, currentStanding: '', count: 0 };
     }
 
     if (!stationMap[station][transporter].weeks[wk]) {
@@ -66,8 +66,13 @@ export function transformToStationData(rows) {
     stationMap[station][transporter].weeks[wk] += count;
     stationMap[station][transporter].count += count;
 
-    if (standing && standing.trim() !== '') {
-      stationMap[station][transporter].standing = standing;
+    const currentStanding = row.current_standing_bucket || standing || '';
+    const weekStanding = row.week_standing_bucket || '';
+    if (currentStanding && currentStanding.trim() !== '') {
+      stationMap[station][transporter].standing = currentStanding;
+    }
+    if (weekStanding && weekStanding.trim() !== '') {
+      stationMap[station][transporter].weekStandings[wk] = weekStanding;
     }
   });
 
@@ -86,6 +91,7 @@ export function transformToStationData(rows) {
       .map(([id, data]) => ({
         id,
         weeks: buildWeekObj(data.weeks, sortedWeeks),
+        weekStandings: data.weekStandings,
         grandTotal: data.count,
         standing: formatStanding(data.standing),
         slsTickets: '',
