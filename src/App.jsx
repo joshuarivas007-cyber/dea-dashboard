@@ -257,7 +257,7 @@ function App() {
         <div className="loading">Loading station data...</div>
       ) : filteredStations && Object.keys(filteredStations).length > 0 ? (
         <div className="stations-grid">
-          {Object.values(filteredStations).map(station => (
+          {Object.values(filteredStations).sort((a, b) => b.total - a.total).map(station => (
             <StationCard key={station.name} station={station} />
           ))}
         </div>
