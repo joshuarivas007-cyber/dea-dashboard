@@ -69,7 +69,7 @@ function App() {
     setLoadedWeeks(weeks);
     setLastRefresh(new Date());
     setDataSource('csv');
-    saveToStorage(data, suburbs, rows, weeks);
+    saveToStorage(data, suburbs, null, weeks);
     setError(null);
   };
 
