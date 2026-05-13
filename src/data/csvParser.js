@@ -48,6 +48,8 @@ export function transformToStationData(rows) {
     const transporter = row.transporter_id;
     const wk = parseInt(row.wk_number, 10);
     const standing = row.standing_bucket || '';
+    // Use tbau_count if available (new query), otherwise count as 1 (old query)
+    const count = parseInt(row.tbau_count, 10) || 1;
 
     if (!station || !transporter || isNaN(wk)) return;
 
@@ -61,8 +63,8 @@ export function transformToStationData(rows) {
     if (!stationMap[station][transporter].weeks[wk]) {
       stationMap[station][transporter].weeks[wk] = 0;
     }
-    stationMap[station][transporter].weeks[wk]++;
-    stationMap[station][transporter].count++;
+    stationMap[station][transporter].weeks[wk] += count;
+    stationMap[station][transporter].count += count;
 
     if (standing && standing.trim() !== '') {
       stationMap[station][transporter].standing = standing;
@@ -110,8 +112,10 @@ export function transformToSuburbData(rows) {
 
   rows.forEach(row => {
     const station = row.delivery_station_code;
-    const postcode = row.shipping_address_postal_code;
+    // Support both old (shipping_address_postal_code) and new (primary_postcode) column names
+    const postcode = row.primary_postcode || row.shipping_address_postal_code || row.postcode || row['primary postcode'] || '';
     const serviceType = row.service_type || '';
+    const count = parseInt(row.primary_postcode_tbau_count || row.tbau_count, 10) || 1;
 
     if (!station || !postcode) return;
 
@@ -121,10 +125,10 @@ export function transformToSuburbData(rows) {
     if (!suburbMap[station][postcode]) {
       suburbMap[station][postcode] = { count: 0, serviceTypes: {} };
     }
-    suburbMap[station][postcode].count++;
+    suburbMap[station][postcode].count += count;
 
     if (serviceType) {
-      suburbMap[station][postcode].serviceTypes[serviceType] = (suburbMap[station][postcode].serviceTypes[serviceType] || 0) + 1;
+      suburbMap[station][postcode].serviceTypes[serviceType] = (suburbMap[station][postcode].serviceTypes[serviceType] || 0) + count;
     }
   });
 
@@ -163,7 +167,7 @@ export function mergeRawRows(existingRows, newRows) {
 
   if (existingRows) {
     existingRows.forEach(row => {
-      const key = (row.scannable_id || '') + '|' + (row.event_date || '') + '|' + (row.transporter_id || '');
+      const key = (row.transporter_id || '') + '|' + (row.event_date || '') + '|' + (row.delivery_station_code || '') + '|' + (row.wk_number || '');
       if (!seen.has(key)) {
         seen.add(key);
         merged.push(row);
@@ -172,7 +176,7 @@ export function mergeRawRows(existingRows, newRows) {
   }
 
   newRows.forEach(row => {
-    const key = (row.scannable_id || '') + '|' + (row.event_date || '') + '|' + (row.transporter_id || '');
+    const key = (row.transporter_id || '') + '|' + (row.event_date || '') + '|' + (row.delivery_station_code || '') + '|' + (row.wk_number || '');
     if (!seen.has(key)) {
       seen.add(key);
       merged.push(row);

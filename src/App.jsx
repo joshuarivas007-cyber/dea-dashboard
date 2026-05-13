@@ -1,4 +1,4 @@
-﻿import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { fetchStationData } from './data/stationData';
 import { parseCSV, transformToStationData, transformToSuburbData, mergeRawRows, getLoadedWeeks, saveToStorage, loadFromStorage, clearStorage } from './data/csvParser';
 import { filterStationsByRegion } from './data/regions';
