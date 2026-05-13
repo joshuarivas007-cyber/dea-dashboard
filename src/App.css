@@ -391,3 +391,73 @@ tr:hover {
 .publish-btn {
   background: #e65100;
 }
+
+/* Password Gate */
+.password-gate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: var(--bg-primary);
+}
+
+.password-box {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 40px;
+  text-align: center;
+  width: 320px;
+}
+
+.password-box h2 {
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.password-box p {
+  color: var(--text-secondary);
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+}
+
+.password-box form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.password-box input {
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-size: 1rem;
+  outline: none;
+}
+
+.password-box input:focus {
+  border-color: var(--accent);
+}
+
+.password-box button {
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  background: var(--accent);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.password-box button:hover {
+  opacity: 0.85;
+}
+
+.password-error {
+  color: #f44336;
+  font-size: 0.85rem;
+  margin-top: 8px;
+}
