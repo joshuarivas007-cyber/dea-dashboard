@@ -46,7 +46,7 @@ export default function StationCard({ station }) {
                     const weekStanding = t.weekStandings ? t.weekStandings[wk] : null;
                     const weekStyle = weekStanding ? getWeekStandingColor(weekStanding) : null;
                     return (
-                      <td key={i} className="wk-cell" style={weekStyle || undefined}>
+                      <td key={i} className="wk-cell" style={weekStyle || undefined} title={weekStanding ? weekStanding.replace('_', ' ') : ''}>
                         {val || ''}
                       </td>
                     );
