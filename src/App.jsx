@@ -203,7 +203,7 @@ function App() {
           <h1>{getTabTitle()}</h1>
           <p className="subtitle">DEA Top 5 Offenders by Station</p>
           {loadedWeeks.length > 0 && (
-            <p className="weeks-loaded">Weeks loaded: {loadedWeeks.join(', ')}</p>
+            <p className="weeks-loaded">{'WK' + loadedWeeks[0] + ' - ' + loadedWeeks[loadedWeeks.length - 1]}</p>
           )}
         </div>
         <div className="header-right">
@@ -241,7 +241,7 @@ function App() {
           )}
           {lastRefresh && (
             <span className="last-refresh">
-              {dataSource === 'published' ? 'Published' : 'Uploaded'}: {lastRefresh.toLocaleString()}{loadedWeeks.length > 0 && (' | Weeks: ' + loadedWeeks.join(', '))}
+              {dataSource === 'published' ? 'Published' : 'Uploaded'}: {lastRefresh.toLocaleString()}{loadedWeeks.length > 0 && (' | WK' + loadedWeeks[0] + ' - ' + loadedWeeks[loadedWeeks.length - 1])}
             </span>
           )}
         </div>
