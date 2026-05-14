@@ -12,7 +12,7 @@ export default function PasswordGate({ children }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (input === 'flexisthebest123') {
+    if (input === 'AMZL123') {
       sessionStorage.setItem(PASS_KEY, 'true');
       setAuthenticated(true);
       setError(false);
